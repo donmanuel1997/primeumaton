@@ -39,11 +39,9 @@ export default function Headers({ }: Props) {
                         scale: 1.2,
                         transition: { duration: 1 },
                     }}
-                        whileTap={{ scale: 0.9 }} className=' bg-white rounded-full  mr-2'>
-                        <SocialIcon url="https://www.tiktok.com/@primeumaton7"
-                        network="tiktok"
-                            fgColor='#29465B'
-                            bgColor='transparent' />
+                        whileTap={{ scale: 0.9 }} className=' bg-white rounded-full p-1 mr-2'>
+                        <SocialIcon url="https://tiktok.com/@primeumaton7"
+                        network="tiktok" />
                     </motion.div>
                     <motion.div whileHover={{
                         scale: 1.2,
