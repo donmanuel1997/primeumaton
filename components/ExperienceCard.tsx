@@ -19,7 +19,6 @@ export default function ExperienceCard({imgsr, title}: Props) {
         }}
         transition={{duration:1.2}}
         whileInView={{opacity:1, y:0}}
-        viewport={{ once: true}}
         className='flex  justify-center items-center w-[100px] h-[100px] rounded-full ' 
         src={imgsr}/>
         

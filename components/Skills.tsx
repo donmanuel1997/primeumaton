@@ -19,23 +19,23 @@ export default function Skills({}: Props) {
     className=' flex flex-col overflow-hidden text-left  max-w-full px-10  mx-auto'>
        
        <div className='mt-5 grid grid-cols-4 gap-5'>
-          <Skill imgsr='./appwrite.svg' />
-          <Skill imgsr='./expo.png' />
-          <Skill imgsr='./js.png' />
-          <Skill imgsr='./react.png' />
-          <Skill imgsr='./nextjs.png' />
-          <Skill imgsr='./vscode.png' />
-          <Skill imgsr='./firebase.png' />
-          <Skill imgsr='./tailwindcss.jpg' />
-          <Skill imgsr='./ts.png' />
-          <Skill imgsr='./motion.png' />
-          <Skill imgsr='./web3.png' />
-          <Skill imgsr='./git.png' />
+          <Skill imgsr='./appwrite.svg' directionLeft={true} />
+          <Skill imgsr='./expo.png' directionLeft={true}/>
+          <Skill imgsr='./js.png' directionLeft={true}/>
+          <Skill imgsr='./react.png' directionLeft={true}/>
+          <Skill imgsr='./nextjs.png' directionLeft={true} />
+          <Skill imgsr='./vscode.png' directionLeft={true} />
+          <Skill imgsr='./firebase.png' directionLeft={true}/>
+          <Skill imgsr='./tailwindcss.jpg' directionLeft={true}/>
+          <Skill imgsr='./ts.png' directionLeft={true}/>
+          <Skill imgsr='./motion.png' directionLeft={true}/>
+          <Skill imgsr='./web3.png' directionLeft={true}/>
+          <Skill imgsr='./git.png'directionLeft={true} />
           
-          <Skill imgsr='' />
-          <Skill imgsr='' />
-          <Skill imgsr='' />
-          <Skill imgsr='' />
+          <Skill imgsr='' directionLeft={true} />
+          <Skill imgsr='' directionLeft={true}/>
+          <Skill imgsr='' directionLeft={true}/>
+          <Skill imgsr='' directionLeft={true} />
           
         </div>
     </motion.div>
