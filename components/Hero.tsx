@@ -27,7 +27,7 @@ export default function Hero({ }: Props) {
             <img src='./adelakun.jpg'  className='w-36 h-36 object-cover  rounded-full'/> 
             </div>
             <div className='flex flex-col justify-center items-center text-white top-0'>
-                <div className='px-2 text-sm uppercase tracking-[3px] '>FULL STACK DEVELOPER ¬ CYBER SECURITY</div>
+                <div className='px-2 text-sm uppercase tracking-[3px] max-w-7xl overflow-hidden'>FULL STACK DEVELOPER ¬ CYBER SECURITY</div>
                 <div className='text-2xl lg:text-4xl font-semibold px-3'>{text}<Cursor cursorColor='#ff6600' />
                 </div>
             </div>
