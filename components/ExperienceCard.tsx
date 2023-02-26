@@ -13,7 +13,7 @@ export default function ExperienceCard({}: Props) {
         <motion.img 
         initial={{
             y: -100,
-            opacity: 0,
+            opacity: 80,
         }}
         transition={{duration:1.2}}
         whileInView={{opacity:1, y:0}}
