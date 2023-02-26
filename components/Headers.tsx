@@ -79,28 +79,6 @@ export default function Headers({ }: Props) {
                     <div className=' uppercase ml-2 text-white hidden text-sm md:inline-flex'>Get in touch</div>
                     </Link>
                 </motion.div>
-
-                
-                <motion.div layout
-                    animate={{ opacity: 0.5 }}
-                    transition={{
-                        opacity: { ease: "linear" },
-                        layout: { duration: 0.3 }
-                    }}
-
-                    whileHover={{
-                        scale: 1.2,
-                        transition: { duration: 1 },
-                    }}
-                    whileTap={{ scale: 0.9 }} className='flex justify-center items-center cursor-pointer mx-10 '>
-                    <div className=' bg-[#051621] rounded-full shadow-md'>
-                        <SocialIcon onClick={() => router.push("#hero")} network='vsco'
-                            className=' cursor-pointer'
-                            fgColor='#23465B'
-                            bgColor='transparent'
-                            style={{ height: 38, width: 38 }} />
-                    </div>
-                </motion.div>
                 </div>
             </div>
             <div className=' border border-emerald-700 w-100 opacity-5 mt-4 ' />
