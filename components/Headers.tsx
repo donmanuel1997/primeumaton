@@ -55,9 +55,9 @@ export default function Headers({ }: Props) {
                     </motion.div>
                 </motion.div>
                 {/*Second Break*/}
-                <div className='flex justify-center items-center'>
+                <div className=' text-white flex justify-center items-center'>
                 <motion.div layout
-                    animate={{ opacity: 0.5 }}
+                    animate={{ opacity: 1 }}
                     transition={{
                         opacity: { ease: "linear" },
                         layout: { duration: 0.3 }
@@ -67,10 +67,10 @@ export default function Headers({ }: Props) {
                         scale: 1.2,
                         transition: { duration: 1 },
                     }}
-                    whileTap={{ scale: 0.9 }} className='flex justify-center items-center cursor-pointer mx-10 '>
-                    <div className=' bg-[#051621] rounded-full shadow-md'>
+                    whileTap={{ scale: 0.9 }} className='flex  justify-center items-center cursor-pointer mx-10 '>
+                    <div className='bg-white p-1 rounded-full  shadow-md'>
                         <SocialIcon onClick={() => router.push("#contact")} network='email'
-                            className=' cursor-pointer'
+                            className='bg-[#051621] p-1 rounded-full cursor-pointer'
                             fgColor='#23465B'
                             bgColor='transparent'
                             style={{ height: 38, width: 38 }} />
