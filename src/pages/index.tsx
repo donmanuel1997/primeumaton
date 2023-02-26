@@ -17,12 +17,13 @@ export default function Home() {
     <div className='text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
       <Head>
         <title>Primeumaton &raquo; Adelakun Emmanuel</title>
-        <meta name="description" content="Primeumaton,Adelakun Emmanuel,cyber security,
+        <meta name='keywords' content="Primeumaton,Adelakun Emmanuel,cyber security,
         Emmanuel Ayodele adelakun,primeumaton limited,Emmanuel adelakun,Emmanuel Adelakun cyber security,
         Emmanuel adelakun programming, Adelakun Emmanuel Cyber Security, Adelakun Emmanuel Programming,
         Adelakun Emmanuel Programmer Nigeria, Adelakun Emmanuel Nigeria, 
         Nigeria Best Programmer, Nigeria Programmer, Nigeria Cyber Security,
         Nigerian Best Programmer, Nigerian Programmer, Nigerian Cyber Security" />
+        <meta name="description" content="Primeumaton Limited &raquo; Adelakun Emmanuel." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
