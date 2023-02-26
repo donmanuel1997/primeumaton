@@ -18,10 +18,8 @@ export default function Experience({}: Props) {
     className=' flex flex-col overflow-hidden text-left md:flex-row max-w-full px-10  mx-auto'>
           <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
             {/* Expienrience Cards */}
-            <ExperienceCard   />
-            <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
+            <ExperienceCard title="Primeumaton Limited" imgsr="./nextjs.png" />
+            <ExperienceCard title="DuduSpree" imgsr="./duduspree.png" />
           </div>
     </motion.div>
   </div>
