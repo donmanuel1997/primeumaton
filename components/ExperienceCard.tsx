@@ -23,7 +23,7 @@ export default function ExperienceCard({}: Props) {
         
         <div className='px-10 lg:px-0'>
             <h4 className='text-xl font-thin my-2 flex justify-center items-center'>Primeumaton Limited</h4>
-            <div className='flex space-x-2  justify-center items-center'>
+            <div className='flex space-x-2 mb-12 lg:mb-2 justify-center items-center'>
                 <img src="./vscode.png" className='w-8 h-8 bg-white rounded-full p-1' />
                 <img src="./js.png" className='w-8 h-8 bg-white rounded-full p-1' />
                 <img src="./react.png" className='w-8 h-8 bg-white rounded-full p-1' />
