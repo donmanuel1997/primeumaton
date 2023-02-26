@@ -29,7 +29,8 @@ export default function Headers({ }: Props) {
                         transition: { duration: 1 },
                     }}
                         whileTap={{ scale: 0.9 }} className=' bg-white rounded-full  mr-2'>
-                        <SocialIcon url="https://facebook.com/jaketrent"
+                        <SocialIcon url="https://wa.me/2349162300288"
+                        network='whatsapp'
                             fgColor='#29465B'
                             bgColor='transparent'
                             style={{ height: 28, width: 28 }} />
@@ -39,7 +40,8 @@ export default function Headers({ }: Props) {
                         transition: { duration: 1 },
                     }}
                         whileTap={{ scale: 0.9 }} className=' bg-white rounded-full  mr-2'>
-                        <SocialIcon url="https://youtube.com/jaketrent"
+                        <SocialIcon url="https://www.tiktok.com/@primeumaton7"
+                        network="tiktok"
                             fgColor='#29465B'
                             bgColor='transparent' />
                     </motion.div>
@@ -48,7 +50,7 @@ export default function Headers({ }: Props) {
                         transition: { duration: 1 },
                     }}
                         whileTap={{ scale: 0.9 }} className=' bg-white rounded-full '>
-                        <SocialIcon url="https://twitter.com/jaketrent"
+                        <SocialIcon url="https://telegram.com/primeumaton"
                             fgColor='#29465B'
                             bgColor='transparent'
                             style={{ height: 28, width: 28 }} />
