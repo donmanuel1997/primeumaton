@@ -76,7 +76,7 @@ export default function Headers({ }: Props) {
                             style={{ height: 38, width: 38 }} />
                     </div>
                     <Link href="#contact">
-                    <div className=' uppercase ml-2 text-white hidden text-sm md:inline-flex'>Get in touch</div>
+                    <div className=' uppercase ml-2 text-white text-sm'>CONTACT</div>
                     </Link>
                 </motion.div>
                 </div>

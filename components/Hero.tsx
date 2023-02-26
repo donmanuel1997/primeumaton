@@ -9,13 +9,13 @@ export default function Hero({ }: Props) {
     const [text, count] = useTypewriter({
         words: [
             "My name is: Adelakun Emmanuel </>",
-            "I Code </>",
-            "I Debug </>",
-            "I Deploy </>",
-            "I love my wife :) </>",
-            "<I do Programming... />",
-            "<I do Cyber Security... />",
-            "<I am Primeumaton />",],
+            "<> I Code </>",
+            "<> I Debug Codes </>",
+            "<> I Deploy Codes </>",
+            "<> I love my wife :) </>",
+            "I do Programming...({/})",
+            "I do Cyber Security...({/})",
+            "<> I am Primeumaton </>",],
         loop: true,
         delaySpeed: 2000,
     })
@@ -27,8 +27,8 @@ export default function Hero({ }: Props) {
             <img src='./adelakun.jpg'  className='w-36 h-36 object-cover  rounded-full'/> 
             </div>
             <div className='flex flex-col justify-center items-center text-white top-0'>
-                <div className='text-sm uppercase tracking-[3px] flex justify-center items-center'>FULL STACK DEVELOPER ¬ CYBER SECURITY</div>
-                <div className='text-2xl lg:text-4xl font-semibold'>{text} <Cursor cursorColor='#ff6600' />
+                <div className='text-sm uppercase tracking-[3px] flex justify-center px-2 items-center'>FULL STACK DEVELOPER ¬ CYBER SECURITY</div>
+                <div className='text-2xl lg:text-4xl font-semibold px-3'>{text}<Cursor cursorColor='#ff6600' />
                 </div>
             </div>
             <div className='flex flex-row  items-center justify-center space-x-3 tracking-widest'>
