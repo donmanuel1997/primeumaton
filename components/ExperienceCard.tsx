@@ -8,7 +8,7 @@ type Props = {
 
 export default function ExperienceCard({imgsr, title}: Props) {
   return (
-    <article className='flex snap-center rounded-2xl bg-slate-800 p-1 flex-col items-center space-y-7 flex-shrink-0
+    <article className='flex border border-gray-600 snap-center rounded-2xl bg-slate-800 p-4 flex-col items-center space-y-7 flex-shrink-0
     w-[500px] md:w-[600px] xl:w-[900px] opacity-60 hover:opacity-100
      cursor-pointer transition-opacity duration-200 overflow-hidden'>
         <div className='m-9 flex flex-col justify-center items-center'>
@@ -20,7 +20,7 @@ export default function ExperienceCard({imgsr, title}: Props) {
         transition={{duration:1.2}}
         whileInView={{opacity:1, y:0}}
         viewport={{ once: true}}
-        className='flex justify-center items-center w-[100px] h-[100px] rounded-full ' 
+        className='flex  justify-center items-center w-[100px] h-[100px] rounded-full ' 
         src={imgsr}/>
         
         <div className='px-10 lg:px-0'>
