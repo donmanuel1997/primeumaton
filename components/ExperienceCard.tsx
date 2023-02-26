@@ -18,7 +18,7 @@ export default function ExperienceCard({}: Props) {
         transition={{duration:1.2}}
         whileInView={{opacity:1, y:0}}
         viewport={{ once: true}}
-        className='flex justify-center items-center w-[50px] h-[50px] rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center' 
+        className='flex justify-center items-center w-[100px] h-[100px] rounded-full ' 
         src='./duduspree.png' />
         
         <div className='px-10 lg:px-0'>
