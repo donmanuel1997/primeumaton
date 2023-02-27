@@ -48,7 +48,7 @@ export default function Headers({ }: Props) {
                         transition: { duration: 1 },
                     }}
                         whileTap={{ scale: 0.9 }} className=' bg-white rounded-full '>
-                        <SocialIcon url="https://telegram.com/primeumaton"
+                        <SocialIcon url="https://t.me/primeumaton7"
                             fgColor='#29465B'
                             bgColor='transparent'
                             style={{ height: 28, width: 28 }} />
