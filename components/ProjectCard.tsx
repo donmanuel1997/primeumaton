@@ -26,8 +26,7 @@ export default function ProjectCard({imgsr,title,github,youtube}: Props) {
         }}
         transition={{duration:1.2}}
         whileInView={{opacity:1, y:0}}
-        viewport={{ once: true}}
-        className='flex  justify-center items-center w-[100px] h-[100px] rounded-lg bg-white p-1 ' 
+        className='flex  justify-center items-center w-[200px] h-[200px] lg:w-[150px] lg:h-[150px] rounded-lg bg-white p-1 ' 
         src={imgsr}/>
         
         <div className='px-10 lg:px-0'>
