@@ -18,7 +18,7 @@ export default function Contact({}: Props) {
       </div>
 
        <div className='flex space-y-2 flex-col justify-center items-center px-5  text-sm mt-9'>
-          
+          <div className='flex space-x-3'>
           <div className='flex space-x-2'>
             <p> <PhoneIcon className=' text-[#F7AB0A] w-7 h-7 animate-pulse' /> </p>
             <p>{" "} +234 916 230 0288</p>
@@ -27,6 +27,7 @@ export default function Contact({}: Props) {
           <div className='flex space-x-2'>
             <p> <EnvelopeIcon className=' text-[#F7AB0A] w-7 h-7 animate-pulse' /> </p>
             <p>{" "}donmanuel1997{"[@]"}gmail.com</p>
+          </div>
           </div>
 
           <div className='flex space-x-2'>
