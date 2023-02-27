@@ -18,7 +18,7 @@ export default function Contact({}: Props) {
       </div>
 
        <div className='flex space-y-2 flex-col justify-center items-center px-5  text-sm mt-9'>
-          <div className='flex space-x-3'>
+          <div className='flex space-x-2'>
           <div className='flex space-x-2'>
             <p> <PhoneIcon className=' text-[#F7AB0A] w-7 h-7 animate-pulse' /> </p>
             <p>{" "} +234 916 230 0288</p>
@@ -39,12 +39,9 @@ export default function Contact({}: Props) {
        <div>
             <form className='mt-4 flex flex-col space-y-2 w-fit mx-auto'>
                 <div className='flex flex-col space-y-2 '>
-                  <div className='bg-gray-700 p-1 flex space-x-2'>
                   <input placeholder='Your Name' className=' outline-none bg-slate-500 rounded-sm  px-5 py-2 text-gray-900 font-semibold'/>
                   <input  placeholder='Subject' className=' outline-none bg-slate-500 rounded-sm  px-5 py-2 text-gray-900 font-semibold'/>
                   
-                 </div>
-                 
                    <textarea placeholder="...Say Something..." className=' outline-none bg-slate-500 rounded-sm  px-5 py-2 text-gray-900 font-semibold'/>
                   
                   <button className=' bg-[#F7AB0A] text-gray-900 p-1 rounded-sm font-semibold animate-pulse'>Send message</button>
