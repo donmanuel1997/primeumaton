@@ -19,7 +19,7 @@ export default function Projects({}: Props) {
           <div className='w-full  flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
             {/* Expienrience Cards */}
             <ProjectCard title="NFT DROP" imgsr="./nft.jpg" github="https://github.com/donmanuel1997/nftdrop" youtube='https://github.com/donmanuel1997/nftdrop' />
-            <ProjectCard title="NFT DROP" imgsr="./nft.jpg" github="https://github.com/donmanuel1997/nftdrop" youtube='https://github.com/donmanuel1997/nftdrop' />
+            <ProjectCard title="Anaphaxeton Chatgpt" imgsr="./openai.jpg" github="https://github.com/donmanuel1997/anaphaxeton" youtube='https://anaphaxeton.com' />
            
            </div>
     </motion.div>
